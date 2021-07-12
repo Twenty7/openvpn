@@ -24,6 +24,12 @@ RUN set -eux; \
     google-authenticator \
     pamtester \
     libqrencode \
+    util-linux \
+    pciutils \
+    usbutils \
+    coreutils \
+    binutils \
+    findutils \
   ; \
   ln -s /usr/share/easy-rsa/easyrsa /usr/local/bin; \
   rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*; \
